@@ -9,7 +9,7 @@ const uniq = (a) => {
   return a.filter(item =>
     seen.hasOwnProperty(item) ? false : (seen[item] = true)
   );
-}
+}    
 
 const makeTable = (table, obj) => {
 
